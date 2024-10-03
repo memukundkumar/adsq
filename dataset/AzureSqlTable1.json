@@ -1,0 +1,37 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "orderid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "customerid",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "orderdate",
+				"type": "date"
+			},
+			{
+				"name": "amount",
+				"type": "decimal",
+				"precision": 10,
+				"scale": 2
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "orders"
+		}
+	}
+}
