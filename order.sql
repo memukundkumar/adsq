@@ -4,3 +4,4 @@ CREATE TABLE orders (
     orderdate DATE NOT NULL,
     amount DECIMAL(10, 2) NOT NULL
 );
+ALTER TABLE orders ADD itemname VARCHAR(100);
