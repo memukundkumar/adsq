@@ -1,0 +1,6 @@
+{
+	"name": "ExecuteSQLScriptsPipeline",
+	"properties": {
+		"annotations": []
+	}
+}
