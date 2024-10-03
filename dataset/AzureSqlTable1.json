@@ -27,6 +27,10 @@
 				"type": "decimal",
 				"precision": 10,
 				"scale": 2
+			},
+			{
+				"name": "itemname",
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
